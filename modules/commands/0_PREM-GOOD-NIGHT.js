@@ -14,7 +14,7 @@ module.exports.handleEvent = async ({ api, event, Users, Currencies, args, utils
   var { threadID, messageID } = event;
   let react = event.body.toLowerCase();
   if(react.includes("good night") ||
-     react.includes("gud night") || react.includes("gn") || react.includes("GN") ||
+     react.includes("guud night") || react.includes("gn") || react.includes("GN") ||
 react.includes("Gn") ||
 react.includes("GOOD NIGHT")) {
     var msg = {
